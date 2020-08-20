@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #888;
+  color: #eee;
 }
 
 /* @media only screen and (min-width: 1024px) {
@@ -50,6 +50,10 @@ a {
   padding: 0 12px;
 }
 
+.nav-bottom-links a {
+  color: #888;
+}
+
 .nav-fixed {
   background-color: #eee; /*No working on the page */
   position: sticky;
@@ -75,34 +79,34 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%; 
-  height: 500px;
+  height: 550px;
   grid-column: 1/3;
   grid-row: 1/3;
-  
+  margin: 0 0 0 15px;
 }
 
 .article-1 {
   max-width: 100%;
   height: 100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin: 15px 10px;
+  margin: 15px 20px;
 }
 
 .coverRight-1 {
   background-image: url(../images/article-2-bg.jpg);
   background-size: cover;
-  max-width: 80%;
+  max-width: 90%;
   grid-column: 3/4;
   grid-row: 1/2;
-  height: 250px;
+  height: 260px;
 }
 
 .coverRight-2 {
   background-image: url(../images/article-3-bg.png);
   background-size: cover;
-  max-width: 100%;
+  max-width: 90%;
   grid-column: 3/4;
   grid-row: 2/3;
-  height: 250px;
+  height: 260px;
 }
