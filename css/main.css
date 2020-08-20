@@ -13,6 +13,10 @@ body {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 a {
   text-decoration: none;
   color: #eee;
@@ -43,7 +47,7 @@ a {
 }
 
 .nav-bottom-links {
-  background-color: #eee;
+  background-color: #fff;
   height: 40px; 
   justify-content: left;
   align-items: center;
@@ -54,11 +58,11 @@ a {
   color: #888;
 }
 
-.nav-fixed {
-  background-color: #eee; /*No working on the page */
+#nav-fixed {
   position: sticky;
   top: 0;
-  z-index: 50;
+  left: 0;
+  z-index: 100;
 }
 
 .search-logo {
@@ -68,7 +72,6 @@ a {
 }
 
 .articles {
-  display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
@@ -110,3 +113,68 @@ a {
   grid-row: 2/3;
   height: 260px;
 }
+
+.section-tittle {
+  color: red;
+}
+
+.latest-news {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 500px;
+  width: 80%;
+  align-items: center;
+  border: black 2px solid;
+}
+
+.latest-news-image {
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  border: yellow 2px solid;
+}
+
+.latest-news-text {
+  border: green 2px solid;
+}
+
+.latest-news-1 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.latest-news-1 {
+  background-image: url(../images/art-2-bg-1.jpg);
+}
+
+.latest-news-2 {
+  background-image: url(../images/art-2-bg-2.jpg);
+}
+
+.latest-news-3 {
+  background-image: url(../images/art-2-bg-3.jpg);
+}
+
+.latest-news-4 {
+  background-image: url(../images/art-2-bg-4.png);
+}
+
+.latest-news-5 {
+  background-image: url(../images/art-2-bg-5.jpg);
+}
+
+.latest-news-6 {
+  background-image: url(../images/art-2-bg-6.jpg);
+}
+
+.latest-news-7 {
+  background-image: url(../images/art-2-bg-7.jpg);
+}
+
+.latest-news-8 {
+  background-image: url(../images/art-2-bg-8.png);
+}
+
+
