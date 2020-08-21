@@ -67,22 +67,26 @@ a {
 
 .search-logo {
   float: right;
-  margin: -30px 15px auto 0;
+  margin: -30px 20px auto 25px;
+  padding-left: 18px;
   color: #888;
+  border-left: 1px solid #888;
 }
 
 .articles {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
+  padding-top: 10px;
 }
 
 .coverLeft {
   background-image: url(../images/article-1-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: 60%;
   max-width: 100%; 
-  height: 550px;
+  height: 500px;
   grid-column: 1/3;
   grid-row: 1/3;
   margin: 0 0 0 15px;
@@ -96,48 +100,61 @@ a {
   margin: 15px 20px;
 }
 
+.top-article-1 {
+  justify-content: space-between;
+  padding: 7px 13px;
+}
+
 .coverRight-1 {
   background-image: url(../images/article-2-bg.jpg);
   background-size: cover;
-  max-width: 90%;
+  max-width: 99%;
   grid-column: 3/4;
   grid-row: 1/2;
-  height: 260px;
+  height: 240px;
 }
 
 .coverRight-2 {
   background-image: url(../images/article-3-bg.png);
   background-size: cover;
-  max-width: 90%;
+  max-width: 99%;
   grid-column: 3/4;
   grid-row: 2/3;
-  height: 260px;
+  height: 245px;
 }
 
 .section-tittle {
-  color: red;
+  color: #f42;
+  font-weight: 800;
+  font-size: 33px;
+  margin: 18px 8px 10px 38px;
+}
+
+.section-tittle img {
+  height: 30px;
+  width: 30px;
+  margin-bottom: -5px;
 }
 
 .latest-news {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  height: 500px;
-  width: 80%;
+  height: 600px;
+  max-width: 95%;
   align-items: center;
+  grid-gap: 7px;
+  margin-left: 38px;
   border: black 2px solid;
 }
 
 .latest-news-image {
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  background-repeat: no-repeat;
- 
+  width: 280px;
+  height: 170px;
   border: yellow 2px solid;
 }
 
 .latest-news-text {
-  border: green 2px solid;
+  border: green 1px solid;
 }
 
 .latest-news-1 {
@@ -147,34 +164,50 @@ a {
 
 .latest-news-1 {
   background-image: url(../images/art-2-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-2 {
   background-image: url(../images/art-2-bg-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-3 {
   background-image: url(../images/art-2-bg-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-4 {
   background-image: url(../images/art-2-bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-5 {
   background-image: url(../images/art-2-bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-6 {
   background-image: url(../images/art-2-bg-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-7 {
   background-image: url(../images/art-2-bg-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .latest-news-8 {
   background-image: url(../images/art-2-bg-8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
