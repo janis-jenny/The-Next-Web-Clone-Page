@@ -93,8 +93,7 @@ a {
 }
 
 .coverLeft {
-  background-image: url(../images/article-1-bg.png);
-  background-repeat: no-repeat;
+  background: url(../images/article-1-bg.png) no-repeat;
   background-size: cover;
   background-position-x: 60%;
   max-width: 100%;
@@ -130,6 +129,12 @@ a {
   font-weight: bold;
 }
 
+.bttn-article-1 p {
+  color: #aaa;
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
+}
+
 .bttn-article-1 p i {
   padding: 5px 10px 15px 10px;
 }
@@ -145,18 +150,17 @@ a {
 
 .article-2 h2 {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 15px;
-  padding: 13em 10px 10px 16px;
+  padding: 11.5em 10px 10px 16px;
   font-weight: bold;
 }
 
 .article-3 h2 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 15px;
-  padding: 10em 10px 10px 16px;
+  padding: 8em 10px 10px 16px;
   font-weight: bold;
 }
 
@@ -165,7 +169,10 @@ a {
 }
 
 .article-3 p {
-  padding: 5px 10px 25px 15px;
+  padding: 5px 10px 15px 15px;
+  color: #aaa;
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
 }
 
 .coverRight-2 {
@@ -189,7 +196,7 @@ a {
   color: #f42;
   font-weight: 800;
   font-size: 33px;
-  margin: 18px 8px 10px 38px;
+  margin: 45px 8px 10px 48px;
 }
 
 .section-tittle img {
@@ -205,23 +212,32 @@ a {
   max-width: 95%;
   align-items: center;
   grid-gap: 7px;
-  margin-left: 38px;
-  border: black 2px solid;
+  margin-left: 48px;
 }
 
 .latest-news-image {
   width: 280px;
   height: 170px;
-  border: yellow 2px solid;
 }
 
-.latest-news-text {
-  border: green 1px solid;
+.latest-news-text h3 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 10px;
 }
 
-.latest-news-1 {
-  flex-direction: column;
-  justify-content: center;
+.latest-news-text h3:hover {
+  color: #ff4422;
+  cursor: pointer;
+}
+
+.latest-news-text p {
+  font-size: 13px;
+  color: #aaa;
+  padding: 3px 8px;
 }
 
 .latest-news-1 {
@@ -271,9 +287,6 @@ a {
 .funding-header {
   justify-content: space-between;
   align-items: center;
-}
-
-.funding-header {
   cursor: pointer;
 }
 
@@ -306,7 +319,7 @@ a {
   font-weight: 800;
   font-size: 33px;
   cursor: pointer;
-  margin: 40px 30px 20px 40px;
+  margin: 40px 20px 20px 60px;
 }
 
 .funding-companies {
@@ -530,4 +543,123 @@ a {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.latest-deal-img-1 {
+  background: url(../images/deals-1.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-2 {
+  background: url(../images/deals-2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-3 {
+  background: url(../images/deals-3.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-4 {
+  background: url(../images/deals-4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-5 {
+  background: url(../images/deals-5.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-6 {
+  background: url(../images/deals-6.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-7 {
+  background: url(../images/deals-7.jpg) no-repeat;
+  background-size: cover;
+}
+
+.latest-deal-img-8 {
+  background: url(../images/deals-8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.price {
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.price li {
+  margin-left: 12px;
+}
+
+.cross-text {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.main-price {
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+/* FOOTER */
+
+/****TOP FOOTER****/
+
+.top-footer {
+  background: #131313;
+}
+
+.social-icons {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.social-icons li {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.social-icons i {
+  color: #fff;
+}
+
+.links-list {
+  font-family: "Oxanium", cursive;
+  font-size: 13px;
+  color: #aaa;
+  cursor: pointer;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.links-list li {
+  margin-right: 20px;
+}
+
+/****DOWN FOOTER****/
+
+.down-footer {
+  background: #000;
+}
+
+.copyright-text {
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-family: "Krub", sans-serif;
+  font-size: 13px;
+  list-style-type: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
