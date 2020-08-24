@@ -225,7 +225,7 @@ a {
 }
 
 .latest-news-1 {
-  background-image: url(../images/art-2-bg-1.jpg) no-repeat;
+  background: url(../images/art-2-bg-1.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -240,27 +240,27 @@ a {
 }
 
 .latest-news-4 {
-  background-image: url(../images/art-2-bg-4.png) no-repeat;
+  background: url(../images/art-2-bg-4.png) no-repeat;
   background-size: cover;
 }
 
 .latest-news-5 {
-  background-image: url(../images/art-2-bg-5.jpg) no-repeat;
+  background: url(../images/art-2-bg-5.jpg) no-repeat;
   background-size: cover;
 }
 
 .latest-news-6 {
-  background-image: url(../images/art-2-bg-6.jpg) no-repeat;
+  background: url(../images/art-2-bg-6.jpg) no-repeat;
   background-size: cover;
 }
 
 .latest-news-7 {
-  background-image: url(../images/art-2-bg-7.jpg) no-repeat;
+  background: url(../images/art-2-bg-7.jpg) no-repeat;
   background-size: cover;
 }
 
 .latest-news-8 {
-  background-image: url(../images/art-2-bg-8.png) no-repeat;
+  background: url(../images/art-2-bg-8.png) no-repeat;
   background-size: cover;
 }
 
@@ -397,9 +397,9 @@ a {
 
 .category-news {
   justify-content: space-between;
-  flex-direction: column;
   margin-left: 100px;
   margin-right: 100px;
+  flex-wrap: wrap;
 }
 
 .category-item img {
