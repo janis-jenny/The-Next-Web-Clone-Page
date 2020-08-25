@@ -62,6 +62,10 @@ a {
   z-index: 100;
 }
 
+#logo {
+  display: inline-block;
+}
+
 .search-logo {
   float: right;
   margin: -30px 20px auto 25px;
@@ -117,7 +121,7 @@ a {
   color: #fff;
   font-size: 50px;
   line-height: 45px;
-  padding: 5em 5px 14px 5px;
+  padding: 3.8em 5px 14px 5px;
   font-weight: bold;
 }
 
@@ -673,7 +677,18 @@ a {
 }
 
 @media screen and (max-width: 967px) {
-  #nav-fixed {
+  .nav-top {
+    display: none;
+  }
+
+  .logo-tnw {
+  }
+
+  .nav-fixed {
+    display: sticky;
+  }
+
+  .nav-top-link {
     display: none;
   }
 
@@ -725,8 +740,17 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  #nav-fixed {
+  .nav-bottom-links {
     display: none;
+  }
+
+  #mobile-menu {
+    display: block;
+  }
+
+  .search-div figure {
+    right: 5px;
+    position: relative;
   }
 
   .articles {
