@@ -2,7 +2,7 @@
 
 # The Next Web Page - Responsive design
 
-> The objective of this project was to create a fully responsive clone of The Next Web Page
+> The objective of this project was to create a fully responsive clone of [The Next Web Page](https://thenextweb.com/)
 
 ![screenshot](.\images\screenshot.png)
 
@@ -18,7 +18,7 @@ The project was the sixth on the Microverse HTML/CSS curriculum created using CS
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/janis-jenny/design_teardown/teardown-branch/index.html)
+[Live Demo Link](https://raw.githack.com/janis-jenny/The-Next-Web-Clone-Page/TheNextWeb/index.html)
 
 ## Author
 
@@ -32,7 +32,7 @@ The project was the sixth on the Microverse HTML/CSS curriculum created using CS
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/janis-jenny/design_teardown/issues).
+Feel free to check the [issues page](https://github.com/janis-jenny/The-Next-Web-Clone-Page/issues).
 
 ## Show your support
 
