@@ -4,7 +4,7 @@
 
 > The objective of this project was to create a fully responsive clone of [The Next Web Page](https://thenextweb.com/)
 
-![screenshot](.\images\screenshot.png)
+![screenshot](./images/screenshot.png)
 
 The project was the sixth on the Microverse HTML/CSS curriculum created using CSS positioning, FLEX, Float and Grid for some elements.
 
