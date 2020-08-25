@@ -526,7 +526,7 @@ a {
   width: 370px;
 }
 
-.news-list li {
+.new-list-line {
   border-bottom: 1px solid #e4e4e4;
   margin-bottom: 10px;
 }
@@ -590,20 +590,18 @@ a {
   align-items: center;
 }
 
-.price li {
-  margin-left: 12px;
-}
-
 .cross-text {
   font-size: 13px;
   text-decoration: line-through;
   color: #aaa;
+  margin-left: 12px;
 }
 
 .main-price {
   font-size: 15px;
   color: #555;
   font-weight: bold;
+  margin-left: 12px;
 }
 
 /* END OF LATEST DEAL SECTION */
@@ -625,12 +623,9 @@ a {
   padding-top: 30px;
 }
 
-.social-icons li {
+.social-icon {
   margin-right: 50px;
   cursor: pointer;
-}
-
-.social-icons i {
   color: #fff;
 }
 
@@ -646,7 +641,7 @@ a {
   padding-bottom: 30px;
 }
 
-.links-list li {
+.link-item {
   margin-right: 20px;
 }
 
