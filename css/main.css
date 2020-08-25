@@ -678,11 +678,7 @@ a {
   }
 
   .coverLeft {
-    background: linear-gradient(
-      to bottom,
-      rgba(253, 39, 39, 0.377),
-      rgb(0, 0, 0)
-    );
+    background: linear-gradient(to bottom, (rgba(122, 109, 109, 0.377), black));
   }
 
   .top-article-1 {
