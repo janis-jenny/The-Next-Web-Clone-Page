@@ -23,7 +23,7 @@ a {
   color: #eee;
 }
 
-/* Navbar Section */
+/* NAVBAR SECTION */
 
 .nav-top {
   width: 100%;
@@ -70,19 +70,11 @@ a {
   border-left: 1px solid #888;
 }
 
-/*****MEDIA QUERIES*****/
+/* END OF NAVBAR SECTION */
 
-@media screen and (max-width: 967px) {
-  #nav-fixed {
-    display: none;
-  }
-}
+/* MAIN CONTENT */
 
-@media screen and (max-width: 767px) {
-  #nav-fixed {
-    display: none;
-  }
-}
+/* TOP ARTICLES SECTION */
 
 .articles {
   grid-template-columns: 2fr 1fr;
@@ -151,7 +143,7 @@ a {
 .article-2 h2 {
   color: #fff;
   font-size: 16px;
-  line-height: 15px;
+  line-height: 25px;
   padding: 11.5em 10px 10px 16px;
   font-weight: bold;
 }
@@ -159,7 +151,7 @@ a {
 .article-3 h2 {
   color: #fff;
   font-size: 16px;
-  line-height: 15px;
+  line-height: 25px;
   padding: 8em 10px 10px 16px;
   font-weight: bold;
 }
@@ -191,6 +183,10 @@ a {
   justify-content: space-between;
   margin: 15px 20px;
 }
+
+/* END OF TOP ARTICLES SECTION */
+
+/* LATEST NEWS SECTION */
 
 .section-tittle {
   color: #f42;
@@ -280,6 +276,10 @@ a {
   background-size: cover;
 }
 
+/* END OF LATEST NEWS SECTION */
+
+/* LATEST FUNDING SECTION */
+
 .latest-funding {
   padding: 20px auto 10px 10px;
 }
@@ -325,6 +325,7 @@ a {
 .funding-companies {
   list-style-type: none;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin: 15px 70px;
   height: 260px;
 }
@@ -421,13 +422,15 @@ a {
   margin-bottom: -5px;
 }
 
-/****MEDIA QUERY****/
-
 @media screen and (max-width: 1024px) {
   .category-news {
     flex-flow: row wrap;
   }
 }
+
+/* END OF LATEST FUNDING SECTION */
+
+/* APPS SECTION */
 
 .most-popular-app {
   background: url(../images/slack-icono.jpg) no-repeat;
@@ -545,6 +548,10 @@ a {
   margin-left: -1em;
 }
 
+/* END OF APPS SECTION */
+
+/* LATEST DEAL SECTION */
+
 .latest-deal-img-1 {
   background: url(../images/deals-1.jpg) no-repeat;
   background-size: cover;
@@ -607,6 +614,10 @@ a {
   font-weight: bold;
 }
 
+/* END OF LATEST DEAL SECTION */
+
+/* END OF MAIN SECTION */
+
 /* FOOTER */
 
 /****TOP FOOTER****/
@@ -662,4 +673,132 @@ a {
   list-style-type: none;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* END OF FOOTER SECTION */
+
+/*****MEDIA QUERIES*****/
+
+@media screen and (max-width: 967px) {
+  #nav-fixed {
+    display: none;
+  }
+
+  .coverLeft {
+    background: linear-gradient(
+      to bottom,
+      rgba(253, 39, 39, 0.377),
+      rgb(0, 0, 0)
+    );
+  }
+
+  .top-article-1 {
+    display: none;
+  }
+
+  .bttn-article-1 h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+
+  .comp-box {
+    width: 30%;
+  }
+
+  .funding-companies {
+    height: 820px;
+  }
+
+  .funding-header {
+    flex-direction: column;
+  }
+
+  .info-funding {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 25px;
+  }
+
+  .info-funding li {
+    padding-bottom: 15px;
+  }
+
+  .pipe {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #nav-fixed {
+    display: none;
+  }
+
+  .articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .coverLeft {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 200px;
+  }
+
+  .bttn-article-1 h1 {
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 10px;
+  }
+
+  .coverRight-1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    height: 200px;
+    margin-left: 15px;
+  }
+
+  .article-2 h2 {
+    padding-top: 120px;
+  }
+
+  .coverRight-2 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    height: 200px;
+    margin-left: 15px;
+  }
+
+  .article-3 h2 {
+    padding-top: 60px;
+  }
+
+  .comp-box {
+    width: 90%;
+  }
+
+  .funding-companies {
+    height: 1020px;
+    padding-left: 30px;
+  }
+
+  .latest-news {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    height: auto;
+  }
+
+  .latest-news-image {
+    width: 100px;
+    height: 100px;
+    background-position: 50%;
+  }
+
+  .latest-news-text {
+    float: right;
+    position: absolute;
+    left: 160px;
+  }
 }
