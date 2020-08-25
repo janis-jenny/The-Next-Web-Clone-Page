@@ -226,7 +226,7 @@ a {
 }
 
 .latest-news-text h3:hover {
-  color: #ff4422;
+  color: #f42;
   cursor: pointer;
 }
 
@@ -281,7 +281,7 @@ a {
 /* LATEST FUNDING SECTION */
 
 .latest-funding {
-  padding: 20px auto 10px 10px;
+  padding: 20px 10px 10px 10px;
 }
 
 .funding-header {
@@ -309,11 +309,6 @@ a {
   padding-right: 7px;
 }
 
-.info-funding li:hover {
-  color: black;
-  cursor: pointer;
-}
-
 .latest-tittle {
   color: #f42;
   font-weight: 800;
@@ -339,7 +334,6 @@ a {
 .top-box img {
   width: 60px;
   float: left;
-  width: 60px;
   height: 60px;
   margin: 17px 0 10px 10px;
 }
@@ -385,7 +379,6 @@ a {
 
 .central-info li {
   margin-bottom: 10px;
-  display: flex;
   align-items: center;
 }
 
@@ -422,10 +415,9 @@ a {
   margin-bottom: -5px;
 }
 
-@media screen and (max-width: 1024px) {
-  .category-news {
-    flex-flow: row wrap;
-  }
+.info-funding li:hover {
+  color: black;
+  cursor: pointer;
 }
 
 /* END OF LATEST FUNDING SECTION */
@@ -620,7 +612,7 @@ a {
 
 /* FOOTER */
 
-/****TOP FOOTER****/
+/* TOP FOOTER */
 
 .top-footer {
   background: #131313;
@@ -658,7 +650,7 @@ a {
   margin-right: 20px;
 }
 
-/****DOWN FOOTER****/
+/* DOWN FOOTER */
 
 .down-footer {
   background: #000;
@@ -677,7 +669,13 @@ a {
 
 /* END OF FOOTER SECTION */
 
-/*****MEDIA QUERIES*****/
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .category-news {
+    flex-flow: row wrap;
+  }
+}
 
 @media screen and (max-width: 967px) {
   #nav-fixed {
@@ -786,7 +784,7 @@ a {
 
   .latest-news {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: auto;
   }
 
