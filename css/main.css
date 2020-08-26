@@ -714,6 +714,10 @@ a {
     grid-template-rows: 1fr 1fr 1fr;
   }
 
+  .top-article-1 {
+    display: none;
+  }
+
   .coverLeft {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -725,7 +729,7 @@ a {
   .bttn-article-1 h1 {
     font-size: 18px;
     line-height: 30px;
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
   .coverRight-1 {
@@ -819,6 +823,8 @@ a {
     top: -25px;
   }
 }
+
+/* TABLET VIEW */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .nav-top-links {
