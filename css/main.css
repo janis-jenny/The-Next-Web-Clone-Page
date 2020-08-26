@@ -27,8 +27,14 @@ a {
 
 .nav-top {
   width: 100%;
-  flex-direction: column;
-  height: 40px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.wrap-navs {
+  flex-grow: 1;
 }
 
 .nav-top-links {
@@ -46,7 +52,8 @@ a {
 .nav-bottom-links {
   background-color: #fff;
   height: 40px;
-  justify-content: left;
+
+  justify-content: space-between;
   align-items: center;
   padding: 0 12px;
 }
@@ -63,15 +70,23 @@ a {
 }
 
 #logo {
+  background: url(../images/TNWLogo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: inline-block;
+  width: 10%;
+  height: 80px;
 }
 
-.search-logo {
-  float: right;
-  margin: -30px 20px auto 25px;
+.search-div {
   padding-left: 18px;
   color: #888;
   border-left: 1px solid #888;
+  align-items: center;
+}
+
+#search-logo {
+  margin-right: 15px;
 }
 
 /* END OF NAVBAR SECTION */
@@ -677,18 +692,7 @@ a {
 }
 
 @media screen and (max-width: 967px) {
-  .nav-top {
-    display: none;
-  }
-
-  .logo-tnw {
-  }
-
-  .nav-fixed {
-    display: sticky;
-  }
-
-  .nav-top-link {
+  .nav-top-links {
     display: none;
   }
 
