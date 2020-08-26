@@ -42,7 +42,7 @@ a {
   background-color: #000;
   height: 40px;
   align-items: center;
-  padding: 0 12px;
+  padding: 0;
 }
 
 .nav-top-link {
@@ -52,17 +52,17 @@ a {
 .nav-bottom-links {
   background-color: #fff;
   height: 40px;
-
   justify-content: space-between;
   align-items: center;
   padding: 0 12px;
+  flex-grow: 1;
 }
 
 .nav-bottom-links a {
   color: #888;
 }
 
-#nav-fixed {
+.nav-fixed {
   position: sticky;
   top: 0;
   left: 0;
@@ -700,7 +700,7 @@ a {
   }
 
   #logo {
-    width: 80px;
+    width: 100px;
     height: 40px;
     background-position: center center;
   }
@@ -722,7 +722,7 @@ a {
     grid-column: 1/2;
     grid-row: 1/2;
     height: 200px;
-    background: 
+    background:
     linear-gradient(to bottom, rgba(253, 39, 39, 0.377), black);
   }
   
@@ -807,7 +807,6 @@ a {
   }
 
   .latest-news-image {
-    display: none;
     background-position: 50%;
     display: inline-block;
     height: 100px;
@@ -851,10 +850,6 @@ a {
     line-height: 30px;
     font-weight: bold;
     margin-top: 30px;
-  }
-
-  .comp-box {
-    width: 30%;
   }
 
   .latest-news {
