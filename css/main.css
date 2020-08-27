@@ -43,10 +43,11 @@ a {
   height: 40px;
   align-items: center;
   padding: 0;
+  padding-left: 15px;
 }
 
 .nav-top-link {
-  margin: 0 20px 0 5px;
+  margin: 0 20px 0 15px;
 }
 
 .nav-bottom-links {
@@ -69,15 +70,6 @@ a {
   z-index: 100;
 }
 
-#logo {
-  background: url(../images/TNWLogo.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  display: inline-block;
-  width: 10%;
-  height: 80px;
-}
-
 .search-div {
   padding-left: 18px;
   color: #888;
@@ -92,6 +84,11 @@ a {
 /* END OF NAVBAR SECTION */
 
 /* MAIN CONTENT */
+
+main {
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
 /* TOP ARTICLES SECTION */
 
@@ -134,9 +131,9 @@ a {
 
 .bttn-article-1 h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 45px;
-  padding: 3.8em 5px 14px 5px;
+  padding: 4.5em 5px 14px 5px;
   font-weight: bold;
 }
 
@@ -227,11 +224,11 @@ a {
   max-width: 95%;
   align-items: center;
   grid-gap: 7px;
-  margin-left: 48px;
+  margin: 0 auto;
 }
 
 .latest-news-image {
-  width: 280px;
+  width: 100%;
   height: 170px;
 }
 
@@ -301,6 +298,8 @@ a {
 
 .latest-funding {
   padding: 20px 10px 10px 10px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .funding-header {
@@ -339,14 +338,11 @@ a {
 .funding-companies {
   list-style-type: none;
   justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 15px 70px;
-  height: 260px;
+  margin: 15px auto;
 }
 
 .comp-box {
   background: #fff;
-  height: 160px;
   padding: 0;
 }
 
@@ -423,8 +419,6 @@ a {
 
 .category-news {
   justify-content: space-between;
-  margin-left: 100px;
-  margin-right: 100px;
   flex-wrap: wrap;
 }
 
@@ -700,9 +694,17 @@ a {
   }
 
   #logo {
+    background: url(../images/TNWLogo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
     width: 100px;
     height: 40px;
-    background-position: center center;
+ 
+  }
+  #mob-menu {
+    border-left: 1px solid #888;
+    padding-left: 10px;
   }
 
   .nav-top-link {
@@ -757,24 +759,25 @@ a {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    width: 90%;
+    width: 100%;
     height: auto;
   }
 
   .funding-header {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .latest-tittle {
-    margin-left: 35px;
-    width: 80%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .info-funding {
     flex-direction: column;
-    align-items: center;
+    float: left;
     width: 70%;
-    margin-left: 25px;
   }
 
   .info-funding li {
@@ -795,7 +798,11 @@ a {
 
   .comp-box {
     width: 90%;
-    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .last-comp-box {
+    display: none;
   }
 
   .latest-news {
@@ -825,12 +832,8 @@ a {
 /* TABLET VIEW */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-  .nav-top-links {
-    display: none;
-  }
-
   .nav-top-link {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .nav-bottom-links {
@@ -838,9 +841,16 @@ a {
   }
 
   #logo {
-    width: 80px;
-    height: 40px;
+    background: url(../images/TNWLogo.jpg) no-repeat;
+    background-size: cover;
     background-position: center center;
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+  }
+
+  #mob-menu {
+    display: none;
   }
 
   .articles {
@@ -901,7 +911,6 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     width: 100%;
-    height: 600px;
   }
 
   .comp-box {
@@ -910,27 +919,26 @@ a {
     margin-bottom: 20px;
   }
 
+  .last-comp-box {
+    display: none;
+  }
+
   .funding-header {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .latest-tittle {
-    margin-left: 20px;
+    margin-left: 0;
   }
 
   .info-funding {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    width: 70%;
-    margin-left: 25px;
   }
 
   .info-funding li {
     padding-bottom: 15px;
-  }
-
-  .pipe {
-    display: none;
   }
 
   #grid-tablet {
