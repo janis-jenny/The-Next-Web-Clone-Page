@@ -828,6 +828,7 @@ a {
   .nav-top-links {
     display: none;
   }
+
   .nav-top-link {
     font-size: 15px;
   }
@@ -856,7 +857,7 @@ a {
   .coverRight-1 {
     grid-column: 2/3;
     grid-row: 1/2;
-  } 
+  }
 
   .coverRight-2 {
     grid-column: 2/3;
