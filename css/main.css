@@ -904,8 +904,9 @@ a {
   }
 
   .comp-box {
-    width: 90%;
-    height: fit-content;
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   .funding-header {
