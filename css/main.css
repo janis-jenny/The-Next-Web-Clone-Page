@@ -230,7 +230,7 @@ main {
 
 .latest-news-image {
   height: 170px;
-  width: 100%
+  width: 100%;
 }
 
 .latest-news-text h3 {
@@ -837,7 +837,7 @@ main {
   .social-icons {
     text-align: center;
   }
-  
+
   .down-footer {
     text-align: center;
   }
