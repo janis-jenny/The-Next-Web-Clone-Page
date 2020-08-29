@@ -371,7 +371,8 @@ main {
 }
 
 .comp-box {
-  padding: 20px;
+  padding: 5px;
+  width: 25%;
 }
 
 .top-box img {
