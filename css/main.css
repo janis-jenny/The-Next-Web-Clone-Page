@@ -80,6 +80,24 @@ a {
   margin-right: 15px;
 }
 
+#tech-festival-banner {
+  background: #FFDD33;
+  max-height: 32px;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  margin-top: 80px;
+}
+
+#tech-festival-banner a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* END OF NAVBAR SECTION */
 
 /* MAIN CONTENT */
@@ -96,6 +114,7 @@ main {
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
   padding-top: 10px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
@@ -152,7 +171,7 @@ main {
   max-width: 97%;
   grid-column: 3/4;
   grid-row: 1/2;
-  height: 240px;
+  height: 245px;
 }
 
 .article-2 h2 {
@@ -723,6 +742,10 @@ main {
 
   .nav-top-link {
     display: none;
+  }
+
+  #tech-festival-banner {
+    margin-top: 40px;
   }
 
   .articles {
