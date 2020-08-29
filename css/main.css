@@ -348,8 +348,7 @@ main {
   list-style-type: none;
   font-size: 16px;
   color: #f42;
-  margin-right: 7px;
-  margin-top: 15px;
+  margin: 35px 5px auto 35px;
 }
 
 .info-funding li {
@@ -362,7 +361,7 @@ main {
   font-weight: 800;
   font-size: 33px;
   cursor: pointer;
-  margin: 20px auto;
+  margin: 20px 25px;
 }
 
 .funding-companies {
@@ -372,7 +371,7 @@ main {
 }
 
 .comp-box {
-  padding: 0;
+  padding: 20px;
 }
 
 .top-box img {
