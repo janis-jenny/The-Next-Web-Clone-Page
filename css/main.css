@@ -836,10 +836,22 @@ main {
 
   .social-icons {
     text-align: center;
+    margin-left: -8px;
+    font-size: 14px;
   }
 
   .down-footer {
     text-align: center;
+  }
+
+  .links-list {
+    font-size: 10px;
+    margin-left: 15px;
+  }
+
+  .copyright-text {
+    margin-left: 80px;
+    margin-right: 80px;
   }
 }
 
@@ -873,7 +885,7 @@ main {
   }
 
   .articles {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 60% 38%;
     grid-template-rows: 1fr 1fr;
   }
 
@@ -901,7 +913,7 @@ main {
     font-size: 30px;
     line-height: 30px;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 5em;
   }
 
   .latest-news {
