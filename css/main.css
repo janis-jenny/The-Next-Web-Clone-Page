@@ -41,12 +41,14 @@ a {
   background-color: #000;
   height: 40px;
   align-items: center;
-  padding: 0;
-  padding-left: 15px;
+/*   padding: 0;
+  padding-left: 15px; */
 }
 
 .nav-top-link {
-  margin: 0 14px;
+  padding: 7px;
+  font-size: 12px;
+  margin: 3px 4px;
 }
 
 .nav-bottom-links {
@@ -859,7 +861,8 @@ main {
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .nav-top-links {
-    display: none;
+    width:100%;
+    margin: 0 auto;
   }
 
   .nav-bottom-links {
@@ -873,7 +876,7 @@ main {
     background-position: center center;
     display: inline-block;
     width: 100px;
-    height: 40px;
+    height: 80px;
   }
 
   .tablet {
